@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 
 namespace _05.BombNumbers
@@ -12,24 +13,32 @@ namespace _05.BombNumbers
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
-            List<int> specialNumbers = Console.ReadLine()
+            int[] arr = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
-                .ToList();
-            int indexOfSpecialNum = 0;
+                .ToArray();
+            int bomb = arr[0];
+            int power = arr[1];
             for (int i = 0; i < numbers.Count; i++)
             {
-                if (numbers[i] == specialNumbers[0])
+                if (numbers[i] == bomb)
                 {
-                    indexOfSpecialNum = i;
-                    break;
+                    int startIndex = i - power;
+                    if (startIndex < 0)
+                    {
+                        startIndex = 0;
+                    }
+                    int endIndex = i + power;
+                    if (endIndex >= numbers.Count)
+                    {
+                        endIndex = numbers.Count - 1;
+                    }
+                    int indexToRemove = endIndex - startIndex + 1;
+                    numbers.RemoveRange(startIndex, indexToRemove);
+                    i = startIndex - 1;
                 }
             }
-            int powerCounter = specialNumbers[1];
-            for (int i = numbers[indexOfSpecialNum - 1]; i >= indexOfSpecialNum - powerCounter; i--)
-            {
-
-            }
+            Console.WriteLine(numbers.Sum());
         }
     }
 }
