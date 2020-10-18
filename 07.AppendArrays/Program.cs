@@ -8,19 +8,22 @@ namespace _07.AppendArrays
     {
         static void Main(string[] args)
         {
-            List<string> append = Console.ReadLine()
+            List<string> list1 = Console.ReadLine()
                 .Split('|', StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
-            List<string> FinalList = new List<string>(append.Count);
-            int indexer = 0;
-            foreach (string item in append)
+            list1.Reverse();
+            List<string> final = new List<string>();
+            foreach (string item in list1)
             {
-                FinalList[indexer] = item.Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                    .ToString();
-                indexer++;
+                string[] nums = item
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+                foreach (string number in nums)
+                {
+                    final.Add(number);
+                }
             }
-            FinalList.Reverse();
-            Console.WriteLine(string.Join(" ", FinalList));
+            Console.WriteLine(string.Join(" ", final));
         }
     }
 }
