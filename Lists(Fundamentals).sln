@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.AnonymousThreat", "08.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Messaging", "01.Messaging\01.Messaging.csproj", "{B37AC506-A050-4F71-8DB5-3AABDB03BF91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniCoursePlaning", "10.SoftUniCoursePlaning\10.SoftUniCoursePlaning.csproj", "{1D365DEB-2866-436A-AE76-8C6666EC20D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B37AC506-A050-4F71-8DB5-3AABDB03BF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37AC506-A050-4F71-8DB5-3AABDB03BF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37AC506-A050-4F71-8DB5-3AABDB03BF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

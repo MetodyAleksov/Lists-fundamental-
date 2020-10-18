@@ -28,10 +28,12 @@ namespace _08.AnonymousThreat
                     {
                         beginIndex = 0;
                     }
+                    List<string> edited = new List<String>();
                     for (int i = beginIndex; i <= endIndex; i++)
                     {
-
+                        edited.Add(sequence[i]);
                     }
+                    sequence.Insert(beginIndex, string.Join("", edited));
                     sequence.RemoveRange(beginIndex + 1, endIndex + beginIndex + 1);
                 }
                 else if (command[0] == "divide")
@@ -39,6 +41,7 @@ namespace _08.AnonymousThreat
 
                 }
             }
+            Console.WriteLine(string.Join(" ", sequence));
         }
     }
 }
