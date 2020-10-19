@@ -54,13 +54,27 @@ namespace _10.SoftUniCoursePlaning
 					{
 						string ex1 = $"{command[1]}-Exercise";
 						program.Remove(ex1);
-						program.Insert(index2 + 1, ex1);
+						if (index2 + 1 >= program.Count - 1)
+						{
+							program.Add(ex1);
+						}
+						else
+						{
+							program.Insert(index2 + 1, ex1);
+						}
 					}
 					if (program.Contains($"{command[2]}-Exercise"))
 					{
 						string ex1 = $"{command[2]}-Exercise";
 						program.Remove(ex1);
-						program.Insert(index1 + 1, ex1);
+						if (index1 + 1 >= program.Count - 1)
+                        {
+							program.Add(ex1);
+                        }
+						else
+                        {
+							program.Insert(index1 + 1, ex1);
+						}
 					}
 				}
 				else if (command[0] == "Exercise")
