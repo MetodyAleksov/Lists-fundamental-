@@ -9,23 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOfProduct", "ListOfProd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ChangeList", "02.ChangeList\02.ChangeList.csproj", "{E17618D5-E808-47FD-A4AB-BC6B62D38500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.HouseParty", "03.HouseParty\03.HouseParty.csproj", "{6721F102-A1C6-4CDB-9B10-C47AED4FC41B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HouseParty", "03.HouseParty\03.HouseParty.csproj", "{6721F102-A1C6-4CDB-9B10-C47AED4FC41B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ListOperations", "04.ListOperations\04.ListOperations.csproj", "{AD850DC4-920B-452C-85C4-14876467FA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ListOperations", "04.ListOperations\04.ListOperations.csproj", "{AD850DC4-920B-452C-85C4-14876467FA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Train", "01.Train\01.Train.csproj", "{532A86CE-2AE7-4537-9721-79C56032474B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Train", "01.Train\01.Train.csproj", "{532A86CE-2AE7-4537-9721-79C56032474B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BombNumbers", "05.BombNumbers\05.BombNumbers.csproj", "{27487A23-CE0E-49C1-A2CB-DCC5F7A12999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BombNumbers", "05.BombNumbers\05.BombNumbers.csproj", "{27487A23-CE0E-49C1-A2CB-DCC5F7A12999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CardGAme", "06.CardGAme\06.CardGAme.csproj", "{2F41E807-9C22-4A67-B578-9EF531E0F7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.CardGAme", "06.CardGAme\06.CardGAme.csproj", "{2F41E807-9C22-4A67-B578-9EF531E0F7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.AppendArrays", "07.AppendArrays\07.AppendArrays.csproj", "{7BA7003B-B397-4BB8-9B80-15007771CE97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.AppendArrays", "07.AppendArrays\07.AppendArrays.csproj", "{7BA7003B-B397-4BB8-9B80-15007771CE97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.AnonymousThreat", "08.AnonymousThreat\08.AnonymousThreat.csproj", "{31396EE5-09E5-45BE-ACC1-10D32FB4644F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.AnonymousThreat", "08.AnonymousThreat\08.AnonymousThreat.csproj", "{31396EE5-09E5-45BE-ACC1-10D32FB4644F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Messaging", "01.Messaging\01.Messaging.csproj", "{B37AC506-A050-4F71-8DB5-3AABDB03BF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Messaging", "01.Messaging\01.Messaging.csproj", "{B37AC506-A050-4F71-8DB5-3AABDB03BF91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniCoursePlaning", "10.SoftUniCoursePlaning\10.SoftUniCoursePlaning.csproj", "{1D365DEB-2866-436A-AE76-8C6666EC20D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.SoftUniCoursePlaning", "10.SoftUniCoursePlaning\10.SoftUniCoursePlaning.csproj", "{1D365DEB-2866-436A-AE76-8C6666EC20D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Pokemon", "09.Pokemon\09.Pokemon.csproj", "{B638F09D-53EF-417E-84FC-0256F27F49C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D365DEB-2866-436A-AE76-8C6666EC20D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B638F09D-53EF-417E-84FC-0256F27F49C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B638F09D-53EF-417E-84FC-0256F27F49C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B638F09D-53EF-417E-84FC-0256F27F49C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B638F09D-53EF-417E-84FC-0256F27F49C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
